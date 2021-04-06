@@ -1,8 +1,8 @@
 module segmgr
 (
-    input wire clkdiv10,
-    input wire [6:0] seg_l,
-    input wire [6:0] seg_h,
+    input  wire       clkdiv10,
+    input  wire [6:0] seg_l,
+    input  wire [6:0] seg_h,
     output wire [6:0] seg,
     output wire [3:0] segen
 );
